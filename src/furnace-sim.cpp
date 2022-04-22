@@ -153,7 +153,7 @@ public:
             std::cout << "炉腰高度 = " << h3 << std::endl;
             std::cout << V1 << " " << V2 << " " << V3 << " " << V4 << " " << V5 << " " << Vu << std::endl;
             std::cout << "deltaV = " << deltaV;
-            if (deltaV < 0.5 && deltaV > 0)
+            if (deltaV < 0.005 && deltaV > 0)
                 std::cout << " 炉型设计合理，符合要求" << std::endl;
             else
                 std::cout << " 不合理" << std::endl;
